@@ -1,0 +1,91 @@
+:root{
+    --preto: #0000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-image: linear-gradient(45deg,black,rgb(20, 220, 20));
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculadora{
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+
+}
+
+.bt{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+    margin: 3px;
+}
+
+.bt:hover{
+    background-color: #000;
+}
+
+.btigual{
+    width: 50px;
+    height: 106px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+}
+
+.btigual:hover{
+    background-color: #000;
+}
+
+.bt0{
+    width: 106px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: #fff;
+}
+
+.bt0:hover{
+    background-color: #000;
+}
+
+#resultado{
+    background-color: #fff;
+    width: 207px;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: #000;
+    text-align: right;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,black,rgb(20, 220, 20));
+    height: 30px;
+    padding: 8px;
+    padding-top: 30px;
+    font-size: 20px;
+}
